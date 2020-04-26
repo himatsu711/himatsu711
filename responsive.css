@@ -1,0 +1,32 @@
+    
+    /* pc  */
+    @media only screen and (min-width: 981px) {
+    /*ここにpc用スタイルを記述*/
+        #menu-icon{
+            display: none;
+        }
+    }
+     
+    /* smartPhone */
+    @media screen and (max-width: 640px) {
+    /*ここにスマホ用スタイルを記述*/    
+        .header-list{
+            display: none;
+        }
+
+        #menu-icon{
+            float: right;
+            margin: 7px 20px 0 0;
+            display: block;
+        }
+
+        top-wrapper{
+            font-size: xx-small;
+        }
+
+        .top-text{
+            width: 75%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
